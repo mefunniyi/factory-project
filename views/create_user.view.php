@@ -45,9 +45,9 @@
 			<label>Role</label>
 			<select name="role" id="role" required>
 				<option value=""></option>
-				<option value="admin">Admin</option>
-                <option value="doctor">Doctor</option>
-				<option value="nurse">Nurse</option>
+				<option value="supervisor">Supervisor</option>
+                <option value="operator">Operator</option>
+				<option value="labourer">Labourer</option>
 			</select>
 		</div>
 		<div class="input-group">
