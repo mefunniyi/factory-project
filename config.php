@@ -1,8 +1,8 @@
 <?php 
 session_start();
 
-
-$db = mysqli_connect('localhost', 'root', '', 'login');
+// Establish a connection
+$db = new PDO("mysql:host=localhost;dbname=users", "root", "");
 
 $id = ""; $firstname = ""; $lastname = ""; $email    = ""; $role = ""; $errors   = array(); 
 
