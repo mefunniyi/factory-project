@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
+<?php require('partials/header.php'); ?>
+
 	<div class="header">
 		<h2>Login</h2>
 	</div>
@@ -24,5 +19,5 @@
 			<button type="submit" class="btn" name="login_btn">Login</button>
 		</div>
 	</form>
-</body>
-</html>
+
+<?php require('partials/footer.php'); ?>

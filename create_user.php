@@ -27,8 +27,8 @@ function register(){
 	$firstname       =  e($_POST['firstname']);
 	$lastname      =  e($_POST['lastname']);
 	$email       =  e($_POST['email']);
-	$password_1  =  e($_POST['password_1']);
-	$password_2  =  e($_POST['password_2']);
+	$password_1  =  e($_POST['password-1']);
+	$password_2  =  e($_POST['password-2']);
 
 	
 	if (empty($firstname)) { 

@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Register Staff</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<style>
-		.header {
-			background: #003366;
-		}
-		button[name=register_btn] {
-			background: #003366;
-		}
-	</style>
-</head>
-<body>
+<?php require('partials/header.php'); ?>
+
+
 <?php if (isset($_SESSION['message'])): ?>
 	<div class="msg">
 		<?php 
@@ -52,15 +40,15 @@
 		</div>
 		<div class="input-group">
 			<label>Password</label>
-			<input type="password" name="password_1">
+			<input type="password" name="password-1">
 		</div>
 		<div class="input-group">
 			<label>Confirm password</label>
-			<input type="password" name="password_2">
+			<input type="password" name="password-2">
 		</div>
 		<div class="input-group">
 			<button type="submit" class="btn" name="register_btn"> + Create user</button>
 		</div>
 	</form>
-</body>
-</html>
+
+<?php require('partials/footer.php'); ?>
