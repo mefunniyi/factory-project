@@ -2,7 +2,7 @@
 session_start();
 
 
-$db = new PDO('mysql:host=127.0.0.1;dbname=users', 'root', '');
+$db = mysqli_connect('localhost', 'root', '', 'login');
 
 $id = ""; $firstname = ""; $lastname = ""; $email    = ""; $role = ""; $errors   = array(); 
 
